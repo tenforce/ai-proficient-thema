@@ -20,6 +20,7 @@
       "translationjson":"mijn-applicationprofile-ap_en.json",
       "mergefile":"mijn-applicatieprofile-ap_en_merged.jsonld"
     }
-  ]
+  ],
+  "toolchainversion" : "2"
 }
 ]
