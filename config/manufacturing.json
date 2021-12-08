@@ -12,6 +12,7 @@
   "site": "site-skeleton/manufacturing-ap",
   "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
+  "title": "Manufacturing application profile",
   "translation": [
     {
       "language":"en",
