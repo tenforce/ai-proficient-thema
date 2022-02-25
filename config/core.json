@@ -9,7 +9,7 @@
   "license": "https://creativecommons.org/publicdomain/zero/1.0/",
   "contributors-file": "stakeholders.csv",
   "contributors-column": "AI-PROFICIENT",
-  "site": "site-skeleton/AI-PROFICIENT-CORE-ap",
+  "site": "site-skeleton/AI-PROFICIENT-Core-ap",
   "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
   "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
   "title": "AI-PROFICIENT Core data model",
