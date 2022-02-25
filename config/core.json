@@ -1,0 +1,27 @@
+[
+{
+  "name": "core",
+  "type": "ap",
+  "eap": "AI-PROFICIENT-Core-AP.eap",
+  "diagram": "AI-PROFICIENT-Core",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "publication-date": "2022-03-01",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "contributors-file": "stakeholders.csv",
+  "contributors-column": "AI-PROFICIENT",
+  "site": "site-skeleton/AI-PROFICIENT-CORE-ap",
+  "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
+  "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
+  "title": "AI-PROFICIENT Core data model",
+  "translation": [
+    {
+      "language":"en",
+      "template":"AI-PROFICIENT-Core-ap_en.j2",
+      "title": "AI-PROFICIENT Core data model",
+      "translationjson":"AI-PROFICIENT-Core-ap_en.json",
+      "mergefile":"AI-PROFICIENT-Core-ap_en_merged.jsonld"
+    }
+  ],
+  "toolchainversion" : "3"
+}
+]
