@@ -2,7 +2,7 @@
 {
   "name": "conti10",
   "type": "ap",
-  "eap": "AI-PROFICIENT-Core-AP.eap",
+  "eap": "AI-PROFICIENT-Core-Conti10.eap",
   "diagram": "AI-PROFICIENT-Conti10",
   "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
   "publication-date": "2022-04-01",
