@@ -72,4 +72,25 @@
   </pre>
 </aside>
 
+<aside class="example" title="Example 2 with ids condensed ">
+  <p>
+    The example shows the observation from Example 2 with condensed identifiers.
+    This requires adapting the json-ld context to add the appropriate prefix to each value.
+  <p>
+  <pre class="js">
+{
+    "@context": "https://system.conti.com/compoundnameobservation.jsonld",
+    "@type": "Observation",
+    "@id": "123",
+    "madeBySensor": "extruder1SensorCompoundNameSetpoint",
+    "result": {
+	   "unitText" : "no unit",
+	   "value" : "rubber type 1"
+	},
+    "resultTime": "2022-05-12T23:04:12Z",
+    "featureOfInterest": "compoundname"
+}
+  </pre>
+</aside>
+
 {% endblock %}
