@@ -52,4 +52,24 @@
   </pre>
 </aside>
 
+<aside class="example" title="Example 1 observation condensed ">
+  <p>
+    The example shows the observation from Example 1 in the most condensed form
+  <p>
+  <pre class="js">
+{
+    "@context": "https://system.conti.com/compoundnameobservation.jsonld",
+    "@type": "Observation",
+    "@id": "https://system.conti.com/uuid/123",
+    "madeBySensor": "https://data.ai-proficient.eu/id/conti/sensor/extruder1SensorCompoundNameSetpoint",
+    "result": {
+	   "unitText" : "no unit",
+	   "value" : "rubber type 1"
+	},
+    "resultTime": "2022-05-12T23:04:12Z",
+    "featureOfInterest": "https://data.ai-proficient.eu/id/conti/feature/compoundname"
+}
+  </pre>
+</aside>
+
 {% endblock %}
