@@ -1,0 +1,27 @@
+[
+{
+  "name": "conti10lim",
+  "type": "ap",
+  "eap": "AI-PROFICIENT-Core-Conti10-limited.eap",
+  "diagram": "AI-PROFICIENT-Conti10-extruder",
+  "publication-state": "https://data.vlaanderen.be/id/concept/StandaardStatus/OntwerpStandaard",
+  "publication-date": "2022-06-01",
+  "license": "https://creativecommons.org/publicdomain/zero/1.0/",
+  "contributors-file": "stakeholders.csv",
+  "contributors-column": "AI-PROFICIENT",
+  "site": "site-skeleton/AI-PROFICIENT-Conti10-limited",
+  "feedbackurl": "https://github.com/tenforce/ai-proficiant-thema/issues",
+  "standaardregisterurl": "https://tenforce.github.io/data.ai-proficiant.eu-generated",
+  "title": "AI-PROFICIENT Core data model",
+  "translation": [
+    {
+      "language":"en",
+      "template":"AI-PROFICIENT-Conti10-ap_en.j2",
+      "title": "AI-PROFICIENT CONTI 10 Limited Data Model",
+      "translationjson":"AI-PROFICIENT-Conti10-ap_en.json",
+      "mergefile":"AI-PROFICIENT-Conti10-ap_en_merged.jsonld"
+    }
+  ],
+  "toolchainversion" : "3"
+}
+]
