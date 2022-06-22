@@ -93,4 +93,47 @@
   </pre>
 </aside>
 
+<aside class="example" title="An observation about the temperature barrel">
+  <p>
+    The example shows an tempurature measurement and details about the sensor.
+  <p>
+  <pre class="js">
+   {
+    "@context": "https://system.conti.com/temperatureobservation.jsonld",
+    "@type": "Observation",
+    "@id": "https://system.conti.com/uuid/234",
+    "madeBySensor": {
+	   "@type": "https://data.ai-proficient.eu/ns/conti10#ExtruderSensor",
+	   "@id" : "https://data.ai-proficient.eu/id/conti/sensor/extruder1SensorTemperatureBarrelActual",
+	   "identifier" : "extruder1SensorTemperatureBarrelActual",
+	   "locatedAt" : {
+	       "@type" : "https://data.ai-proficient.eu/ns/conti10#Extruder"
+               "@id" : "https://data.ai-proficient.eu/id/conti/extruder/1"
+               "identifier" : "1"		   
+	   },
+	   "hasSystemCapability" : {
+	       "hasSystemProperty" : {
+		      "@id" : "https://data.ai-proficient.eu/id/conti/frequency/every1DegreeCelcius",
+			  "value" : "1",
+			  "unitText": "Cel",
+                          "standardUnit" : "http://qudt.org/vocab/unit/DEG_C"
+		   }
+	   },
+	   "actualFrom": {
+	   "@id": "https://data.ai-proficient.eu/id/conti/sensor/extruder1SensorTemperatureBarrelSetPoint"
+	   }
+	 },
+    "result": {
+	   "value" : "67.23",
+	   "unitText": "Cel",
+           "standardUnit" : "http://qudt.org/vocab/unit/DEG_C"
+	},
+    "resultTime": "2022-05-12T23:04:12Z",
+    "featureOfInterest": {
+	    "@id" : "https://data.ai-proficient.eu/id/conti/feature/temperature"
+	}
+    }
+
+  </pre>
+</aside>
 {% endblock %}
