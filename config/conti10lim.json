@@ -16,7 +16,7 @@
   "translation": [
     {
       "language":"en",
-      "template":"AI-PROFICIENT-Conti10-ap_en.j2",
+      "template":"AI-PROFICIENT-Conti10lim_en.j2",
       "title": "AI-PROFICIENT CONTI 10 Limited Data Model",
       "translationjson":"AI-PROFICIENT-Conti10-ap_en.json",
       "mergefile":"AI-PROFICIENT-Conti10-ap_en_merged.jsonld"
